@@ -15,7 +15,7 @@ These files have been tested and used to generate a live ELK deployment on Azure
   
   [pentest.yml](https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/pentest.yml)
   
-  [filebeat-playbook.yml}(https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/filebeat-playbook.yml)
+  [filebeat-playbook.yml](https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/filebeat-playbook.yml)
   
   [filebeat-config.yml](https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/filebeat-config.yml)
   
