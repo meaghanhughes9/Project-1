@@ -5,17 +5,25 @@ Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-[Network Diagram]
+[Network Diagram]  INSERT DIAGRAM!!!!!!!!!!
 
 
 
-These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the _____ file may be used to install only certain pieces of it, such as Filebeat.
+These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
-  - _TODO: Enter the playbook file._
+  [install-elk.yml](https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/install-elk.yml)
+  
+  [pentest.yml](https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/pentest.yml)
+  
+  [filebeat-playbook.yml}(https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/filebeat-playbook.yml)
+  
+  [filebeat-config.yml](https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/filebeat-config.yml)
+  
+  [metricbeat-playbook.yml](https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/metricbeat-playbook.yml)
+  
+  [metricbeat-config.yml](https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/metricbeat-config.yml)
 
 
-https://github.com/meaghanhughes9/Project-1/blob/3af3edba39133597fa7c323f2a5370a34aec53de/Ansible/install-elk.yml
-Ansible/install-elk.yml
 
 This document contains the following details:
 - Description of the Topology
