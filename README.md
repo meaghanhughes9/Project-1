@@ -75,14 +75,17 @@ Which machine did you allow to access your ELK VM? What was its IP address?
 JumpBox Provisioner 
 Private/Public IP = 10.0.0.4/20.120.119.218
 
+
 A summary of the access policies in place can be found in the table below.
 
-|         Name         | Publicly Accessible | Allowed IP Addresses |
-|:--------------------:|:-------------------:|:--------------------:|
-| JumpBox Provisioner  |         Yes         |     75.72.136.50     |			UPDATE TABLE!!!!!!!!!
-|       Web-VM 1       |          No         |       10.0.0.4       |
-|       Web-VM 2       |          No         |       10.0.0.4       |
-|        Elk-VM        |          No         |       10.0.0.4       |
+|         Name         | Publicly Accessible |     Allowed IP Addresses     | Port |
+|:--------------------:|:-------------------:|:----------------------------:|:----:|
+| Jump Box Provisioner |         Yes         |            Host IP           |  22  |
+|       Web-VM 1       |          No         | JumpBox via Docker container |      |
+|       Web-VM 2       |          No         | JumpBox via Docker container |      |
+|     Load Balancer    |         Yes         |            Host IP           |  80  |
+|      Elk Server      |         Yes         |            Host IP           | 5601 |
+
 
 
 Elk Configuration
