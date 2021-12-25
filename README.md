@@ -46,7 +46,7 @@ Load balancers help to distribute web traffic evenly across the network's server
 What is the advantage of a jump box?
 A jump box is advantageous because it's a hardened and monitored device that controls access to other internal devices. Having to access the network via SSH is more secure.  
 
-Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and system logs.
+Integrating an ELK server allows users to easily monitor the vulnerable VMs for changes to the data and file system logs.
 What does Filebeat watch for?
 Filebeat watches for any changes made to the file system and whem. It also monitors log files or locations specified, collects logs events and forwards them to Elasticsearch/Logstash for indexing. 
 What does Metricbeat record?
