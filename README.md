@@ -168,7 +168,7 @@ Playbook:
 - SSH from Ansible container into the Elk Server to verify the connection:
   ssh azureuser@10.1.0.4
   
-  Config files:
+Config files:
   
  - SSH into JumpBox Provisioner & Start/Attach Ansible Container:
    ssh azureuser@20.120.119.218
@@ -178,11 +178,11 @@ Playbook:
  - Run curl command to get Filebeat config file:
    curl https://gist.githubusercontent.com/slape/5cc350109583af6cbe577bbcc0710c93/raw/eca603b72586fbe148c11f9c87bf96a63cb25760/Filebeat >> /etc/ansible/files/filebeat-   config.yml
     
-  - Edit the /etc/ansible//files/filebeat-config.yml
-    Replace IP addresses on lines 1105 & 1806 with Elk-VMs Private IP & save
+ - Edit the /etc/ansible//files/filebeat-config.yml
+   Replace IP addresses on lines 1105 & 1806 with Elk-VMs Private IP & save
     
-  - Run curl command to get Metricbeat config file:
-    curl https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f53/metricbeat >> /etc/ansible/files/metricbeat-config.yml
+ - Run curl command to get Metricbeat config file:
+   curl https://gist.githubusercontent.com/slape/58541585cc1886d2e26cd8be557ce04c/raw/0ce2c7e744c54513616966affb5e9d96f53/metricbeat >> /etc/ansible/files/metricbeat-config.yml
   
-  - Edit the /etc/ansible/files/metricbeat-config.yml
-    Replace IP addresses on lines 62 & 95 with Elk-VMs Private IP & save
+ - Edit the /etc/ansible/files/metricbeat-config.yml
+   Replace IP addresses on lines 62 & 95 with Elk-VMs Private IP & save
