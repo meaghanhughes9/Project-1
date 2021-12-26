@@ -160,7 +160,7 @@ Playbook:
   sudo docker attach infallible_germain
   
 - Navigate to /etc/ansible and create the Elk playbook:
-  cd /etc/ansible) & nano install-elk.yml (Elk playbook includes increasing memory, installing docker.io, python3-pip, & docker).
+  cd /etc/ansible & nano install-elk.yml (Elk playbook includes increasing memory, installing docker.io, python3-pip, & docker).
     
 - Run the Elk playbook in the directory: 
   ansible-playbook install-elk.yml
