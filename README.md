@@ -5,7 +5,7 @@ Automated ELK Stack Deployment
 
 The files in this repository were used to configure the network depicted below.
 
-[Network Diagram]  INSERT DIAGRAM!!!!!!!!!!
+[Network Diagram](https://github.com/meaghanhughes9/Project-1/blob/e368bf60a058f995719b8d7bcc4880558364e5fc/Diagrams/Meaghan%20Hughes%20Project%201%20Diagram.jpg)
 
 
 
