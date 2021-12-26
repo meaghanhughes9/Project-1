@@ -83,8 +83,8 @@ A summary of the access policies in place can be found in the table below.
 | Jump Box Provisioner |         Yes         |            Host IP           |  22  |
 |       Web-VM 1       |          No         | JumpBox via Docker container |      |
 |       Web-VM 2       |          No         | JumpBox via Docker container |      |
-|     Load Balancer    |         Yes         |            Host IP           |  80  |
-|      Elk Server      |         Yes         |            Host IP           | 5601 |
+|     Load Balancer    |          No         |            Host IP           |  80  |
+|      Elk Server      |          No         |            Host IP           | 5601 |
 
 
 
