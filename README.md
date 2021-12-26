@@ -38,7 +38,7 @@ Description of the Topology
 
 The main purpose of this network is to expose a load-balanced and monitored instance of DVWA, the D*mn Vulnerable Web Application.
 
-Load balancing ensures that the application will be highly available/stable, in addition to restricting access and traffic to the network.
+Load balancing ensures that the application will be highly available and stable, in addition to restricting access and traffic to the network.
 
 What aspect of security do load balancers protect? 
 Load balancers help to distribute web traffic evenly across the network's servers and helps to mitigate DoS attacks. They health probe function can check the machines behind it, keeping track of which machines have issues and avoid sending traffic to said machines. This protects the redundancy aspect of a network and adds resiliency.
