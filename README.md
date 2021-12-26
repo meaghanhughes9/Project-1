@@ -144,7 +144,7 @@ Answer the following questions to fill in the blanks:
 - Which file do you update to make Ansible run the playbook on a specific machine? 
   /etc/ansible/hosts file (adding IPs of virtual machines)
 - How do I specify which machine to install the ELK server on versus which to install Filebeat on?
-  Two separate groups in the /etc/ansible/hosts file are specified. One group is elkservers which will have the Elk-Vm Private IP (10.1.0.4). The other group will be webservers that has the Web-VMs Private IPs (10.0.0.5 & 10.0.0.6) with Filebeat installed. 
+  Two separate groups in the /etc/ansible/hosts file are specified. One group is elkservers which will have the Elk-VM Private IP (10.1.0.4). The other group will be webservers which has the Web-VMs Private IPs (10.0.0.5 & 10.0.0.6) with Filebeat installed. 
 - Which URL do you navigate to in order to check that the ELK server is running?
   http://52.159.114.87:5601/app/kibana
   
