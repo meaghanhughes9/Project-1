@@ -115,10 +115,10 @@ Target Machines & Beats
 
 This ELK server is configured to monitor the following machines:
 Web-1 VM 10.0.0.5
-Web-2 Vm 10.0.0.6
+Web-2 VM 10.0.0.6
 
 We have installed the following Beats on these machines:
-Filebeat and Metricbeat were both successfully installed on the Web Vms listed above.
+Filebeat and Metricbeat were both successfully installed on the Web VMs listed above.
 
 These Beats allow us to collect the following information from each machine:
 Filebeat collects data about the file system and logs events on log files or locations that are specified. Examples of files that could be stored are Apache or Logstash. 
