@@ -8,10 +8,6 @@ The files in this repository were used to configure the network depicted below.
 ![Project 1 Diagram](https://user-images.githubusercontent.com/88637028/156285222-c42640da-00fb-44a4-b95a-22441a4c0400.jpg)
 
 
-[Network Diagram](https://github.com/meaghanhughes9/Project-1/blob/e368bf60a058f995719b8d7bcc4880558364e5fc/Diagrams/Meaghan%20Hughes%20Project%201%20Diagram.jpg)
-
-
-
 These files have been tested and used to generate a live ELK deployment on Azure. They can be used to either recreate the entire deployment pictured above. Alternatively, select portions of the playbook file may be used to install only certain pieces of it, such as Filebeat.
 
   [install-elk.yml](https://github.com/meaghanhughes9/Project-1/blob/9c415e9b4baa72808abd3920026dc13ff2d5a42f/Ansible/install-elk.yml)
@@ -87,7 +83,7 @@ A summary of the access policies in place can be found in the table below.
 |       Web-VM 1       |          No         | JumpBox via Docker container |      |
 |       Web-VM 2       |          No         | JumpBox via Docker container |      |
 |     Load Balancer    |          No         |            Host IP           |  80  |
-|      Elk Server      |          No         |            Host IP           | 5601 |
+|      Elk Server      |         Yes         |            Host IP           | 5601 |
 
 
 
